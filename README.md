@@ -1,26 +1,21 @@
-# Data analysis & visualisation in R for biologists  
+# Data visualisation with ggplot2
 
-## By [Irina Chelysheva](https://github.com/Chelysheva)([Oxford profile](https://www.wadham.ox.ac.uk/people/irina-chelysheva)) and [Srinivasa Rao Rao](https://github.com/sraorao)([Oxford profile](https://www.nds.ox.ac.uk/team/srinivasa-rao))
+## By [Irina Chelysheva](https://github.com/Chelysheva) and [Srinivasa Rao Rao](https://github.com/sraorao)([Oxford profile](https://www.nds.ox.ac.uk/team/srinivasa-rao))
 
-This interactive online MSD Skills training course is aimed at MSD postgraduate research students and staff with some programming experience in R who want to expand their skills in order to create reproducible analysis workflows and publication quality figures from biological data. 
+This interactive online MSD Skills training course is aimed at MSD postgraduate research students and staff with some programming experience in R who want to expand their skills to create publication quality figures from biological data.
  
-* 11th November @ 1.30pm - 4.30pm 
-* 18st November @ 1.30pm - 4.30pm 
-* 20th November @ 10.00am - 1.00pm 
+* 10th June @ 10.00am - 1.00pm 
  
 ## COURSE AIM 
-By the end of this module, you will be able to perform end-to-end analysis of your own data including statistics and advanced visualization using the third-party packages, which extend the functionality of the base R. 
+This half-day course is aimed at intermediate users of R who want to visualise their data with ggplot2 and its extensions.
 
-## By the end of this course, you will learn: 
-* how to find and install the third-party packages relevant for your analysis 
-* how to perform advanced data wrangling 
-* how to create your own functions 
-* how to create graphs and figures for publication 
-* how to visualise more complex data and relationships within the data 
+## By the end of this session you will learn:
+* How to visualise your data with ggplot2
+* Perform statistical tests and add statistical information on the plot
+* Use ggplot2 extensions
+* Prepare plots suitable for publications
 
 
-## COURSE FORMAT 
-The course is structured into 3 half-day sessions as follows: 
-* Session 1 - filtering, grouping, aggregating data - Introduction to common packages such as dplyr and data.table 
-* Session 2 – visualising data and statistical information with ggplot2 and its extensions 
-* Session 3 – advanced visualization and plots for high-dimensional data (heatmaps, PCA), interactive plots with Shiny/Plotly 
+## Software requirements:
+
+The participants must have all required software (R, [RStudio](https://posit.co/download/rstudio-desktop/), [tidyverse](https://www.tidyverse.org)) installed on their computers.
