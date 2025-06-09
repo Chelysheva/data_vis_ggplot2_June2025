@@ -190,3 +190,21 @@ ggsave("plot_total_cases_vs_deaths.svg",
 library(plotly)
 ggplotly()
 
+#### Colour palettes ----
+install.packages("paletteer")
+library(paletteer)
+palettes_c_names
+palettes_d_names
+
+# can be used as scale_[color|fill]_paletteer_[c|d]
+owid_covid %>%
+  group_by(location) %>%
+  summarise(le = unique(life_expectancy),
+            hdi = unique(human_development_index),
+            continent = unique(continent),
+            location = unique(location)) %>%
+  ggplot(aes(x = hdi, y = le, colour = continent, label = location)) +
+    geom_point() +
+    geom_smooth(method = "lm", se = FALSE) +
+    theme_minimal() +
+    scale_color_paletteer_d("ggprism::colorblind_safe") 
